@@ -1,0 +1,728 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Libre+Baskerville&family=Open+Sans:wght@500&family=Roboto:wght@300&family=Source+Code+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Libre+Baskerville&family=Open+Sans:wght@500;600&family=Roboto:wght@300&family=Source+Code+Pro:wght@300&display=swap');
+
+* {
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    background-color: #0b0164;
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    transition: transform 0.3s ease-in;
+}
+
+.sidebar nav{
+    padding: 45px;
+}
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 25px;
+    padding: 33px 0;
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.main {
+    width: 90vw;
+    background-color: #F5F5F5;
+}
+
+.container {
+    display: flex;
+}
+
+.infoCintainer {
+    height: 58vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+h1 {
+    font-family: 'Fira Sans', sans-serif;
+    margin: 23px;
+}
+
+p {
+    font-family: 'Source Code Pro', monospace;
+}
+
+
+.sidebarGo {
+    transform: translate(-443px, 0px);
+    position: absolute;
+}
+
+.hamburger {
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+
+.hamburger svg {
+    background: lightblue;
+}
+
+.cross {
+    margin-left: 130px;
+}
+
+.name {
+    color: black;
+    position: absolute;
+    top: 3vh;
+    left: 35vh;
+    font-family: 'Caveat', cursive;
+}
+
+.one {
+    background-color: white;
+    position: absolute;
+    left: 35vh;
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.two {
+    background-color: white;
+    position: absolute;
+    left: 80vh;
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+
+.three {
+    background-color: white;
+    position: absolute;
+    left: 125vh;
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.four {
+    background-color: white;
+    position: absolute;
+    left: 170vh;
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.seach-bar {
+    width: 100px;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+}
+
+.seach-bar input {
+    position: absolute;
+    top: 3vh;
+    right: 7vh;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+.graph {
+    background-color: white;
+    position: absolute;
+    top: 50vh;
+    left: 35vh;
+    width: 120vh;
+    height: 43vh;
+    border-radius: 10px;
+
+}
+
+.circle-graph {
+    background-color: white;
+    position: absolute;
+    top: 50vh;
+    left: 160vh;
+    width: 50vh;
+    height: 40vh;
+    border-radius: 10px;
+}
+
+.one svg {
+    padding-top: 3px;
+    padding-left: 3px;
+    margin: 20px;
+}
+
+.one1 {
+    background-color: rgb(165, 255, 165);
+    margin-right: 120px;
+    border-radius: 100%;
+    margin-top: 10px;
+}
+
+
+.one1 h4{
+    color: rgb(196, 187, 187);
+    margin-left: 25vh;
+    padding-top: 9vh;
+    position: absolute;
+    top: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.one1 h2 {
+    color: black;
+    margin-left: 25vh;
+    padding-top: 11vh;
+    position: absolute;
+    top: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.one1 h5 {
+    color: black;
+    margin-left: 25vh;
+    padding-top: 17vh;
+    position: absolute;
+    top: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.one1 h6 {
+    color: rgb(165, 255, 165);
+    margin-left: 25vh;
+    padding-top: 15vh;
+    position: absolute;
+    top: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.two svg {
+    padding-top: 3px;
+    padding-left: 15px;
+    margin: 20px;
+}
+
+.two1 {
+    background-color: #c282ff;
+    margin-right: 18vh;
+    border-radius: 100%;
+    margin-top: 20px;
+}
+
+.two1 h4 {
+    color: rgb(196, 187, 187);
+    margin-left: 25vh;
+    padding-top: 9vh;
+    position: absolute;
+    top: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.two1 h2 {
+    color: black;
+    margin-left: 25vh;
+    padding-top: 11vh;
+    position: absolute;
+    top: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.two1 h6 {
+    color: red;
+    margin-left: 25vh;
+    padding-top: 15vh;
+    position: absolute;
+    top: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.two1 h5 {
+    color: black;
+    margin-left: 25vh;
+    padding-top: 17vh;
+    position: absolute;
+    top: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.three svg {
+    padding-top: 10px;
+    padding-left: 10px;
+    margin: 30px;
+}
+
+.three1 {
+    background-color: #8fd2ff;
+    margin-right: 18vh;
+    border-radius: 100%;
+    margin-top: 20px;
+}
+
+.three1 h4 {
+    color: rgb(196, 187, 187);
+    margin-left: 25vh;
+    padding-top: 9vh;
+    position: absolute;
+    top: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.three1 h2 {
+    color: black;
+    margin-left: 25vh;
+    padding-top: 11vh;
+    position: absolute;
+    top: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.three1 h6 {
+    color: red;
+    margin-left: 25vh;
+    padding-top: 15vh;
+    position: absolute;
+    top: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.three1 h5 {
+    color: black;
+    margin-left: 25vh;
+    padding-top: 17vh;
+    position: absolute;
+    top: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.four svg {
+    padding-top: 5px;
+    padding-left: 10px;
+    margin: 30px;
+}
+
+.four1 {
+    background-color: #ff7e7e;
+    margin-right: 18vh;
+    border-radius: 100%;
+    margin-top: 20px;
+}
+
+.four1 h4 {
+    color: rgb(196, 187, 187);
+    margin-left: 25vh;
+    padding-top: 9vh;
+    position: absolute;
+    top: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.four1 h2 {
+    color: black;
+    margin-left: 25vh;
+    padding-top: 11vh;
+    position: absolute;
+    top: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.four1 h6 {
+    color: rgb(165, 255, 165);
+    margin-left: 25vh;
+    padding-top: 15vh;
+    position: absolute;
+    top: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.four1 h5 {
+    color: black;
+    margin-left: 25vh;
+    padding-top: 17vh;
+    position: absolute;
+    top: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.first-line {
+    background-color: #92c7ff;
+    width: 37px;
+    height: 25vh;
+    margin-top: 3vh;
+    margin-left: 4vh;
+    border-radius: 10px;
+}
+
+.name1 {
+    width: 22vh;
+}
+
+.name1 h2 {
+    color: black;
+    margin-top: 3vh;
+    margin-left: 3vh;
+    font-family: 'Open Sans', sans-serif;
+} 
+
+.name1 h3 {
+    color: #c4bbbb;
+    margin-left: 3vh;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.qu {
+    background-color: #ebe3e3;
+    width: 16vh;
+    height: 5vh;
+    margin-left: 100vh;
+    margin-top: 3vh;
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+}
+
+.qu h4 {
+    margin: 10px;
+    color: #c4bbbb;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.jan {
+    width: 20px;
+}
+
+.jan h4 {
+    color: #242323;
+    margin-left: 5vh;
+    margin-top: 10px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.second-line {
+    background-color: #92c7ff;
+    width: 37px;
+    height: 20vh;
+    margin-top: 18vh;
+    margin-left: 10vh;
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+}
+
+.feb {
+    width: 20px;
+}
+
+.feb h4 {
+    color: #242323;
+    margin-left: 10vh;
+    margin-top: 39vh;
+    position: absolute;
+    top: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.third-line {
+    background-color: #92c7ff;
+    width: 37px;
+    height: 28vh;
+    margin-top: 10vh;
+    margin-left: 16vh;
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+}
+
+.mar {
+    width: 20px;
+}
+
+.mar h4 {
+    color: #242323;
+    margin-left: 17vh;
+    margin-top: 39vh;
+    position: absolute;
+    top: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.fourth-line {
+    background-color: #92c7ff;
+    width: 37px;
+    height: 26vh;
+    margin-top: 12vh;
+    margin-left: 22vh;
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+}
+
+.apr {
+    width: 20px;
+}
+
+.apr h4 {
+    color: #242323;
+    margin-left: 23vh;
+    margin-top: 39vh;
+    position: absolute;
+    top: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.fifth-line {
+    background-color: #92c7ff;
+    width: 37px;
+    height: 27vh;
+    margin-top: 11vh;
+    margin-left: 28vh;
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+}
+
+.may {
+    width: 20px;
+}
+
+.may h4 {
+    color: #242323;
+    margin-left: 29vh;
+    margin-top: 39vh;
+    position: absolute;
+    top: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.sixth-line {
+    background-color: #92c7ff;
+    width: 37px;
+    height: 10vh;
+    margin-top: 28vh;
+    margin-left: 34vh;
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+}
+
+.jun {
+    width: 20px;
+}
+
+.jun h4 {
+    color: #242323;
+    margin-left: 35vh;
+    margin-top: 39vh;
+    position: absolute;
+    top: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.seventh-line {
+    background-color: #92c7ff;
+    width: 37px;
+    height: 27vh;
+    margin-top: 12vh;
+    margin-left: 40vh;
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+}
+
+.jul {
+    width: 20px;
+}
+
+.jul h4 {
+    color: #242323;
+    margin-left: 41vh;
+    margin-top: 39vh;
+    position: absolute;
+    top: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.eight-line {
+    background-color: #308aea;
+    width: 37px;
+    height: 28vh;
+    margin-top: 11vh;
+    margin-left: 46vh;
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+}
+
+.aug {
+    width: 20px;
+}
+
+.aug h4 {
+    color: #000000;
+    margin-left: 46vh;
+    margin-top: 39vh;
+    position: absolute;
+    top: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.ninth-line {
+    background-color: #92c7ff;
+    width: 37px;
+    height: 27vh;
+    margin-top: 12vh;
+    margin-left: 52vh;
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+}
+
+.sep {
+    width: 20px;
+}
+
+.sep h4 {
+    color: #242323;
+    margin-left: 53vh;
+    margin-top: 39vh;
+    position: absolute;
+    top: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.tenth-line {
+    background-color: #92c7ff;
+    width: 37px;
+    height: 24vh;
+    margin-top: 15vh;
+    margin-left: 58vh;
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+}
+
+.oct {
+    width: 20px;
+}
+
+.oct h4 {
+    color: #242323;
+    margin-left: 59vh;
+    margin-top: 39vh;
+    position: absolute;
+    top: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.eleventh-line {
+    background-color: #92c7ff;
+    width: 37px;
+    height: 20vh;
+    margin-top: 19vh;
+    margin-left: 64vh;;
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+}
+
+.nov {
+    width: 20px;
+}
+
+.nov h4 {
+    color: #242323;
+    margin-left: 65vh;
+    margin-top: 39vh;
+    position: absolute;
+    top: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.twelfth-line {
+    background-color: #92c7ff;
+    width: 37px;
+    height: 26vh;
+    margin-top: 13vh;
+    margin-left: 70vh;
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+}
+
+.dec {
+    width: 20px;
+}
+
+.dec h4 {
+    color: #242323;
+    margin-left: 71vh;
+    margin-top: 39vh;
+    position: absolute;
+    top: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.circle-graph h2 {
+    color: black;
+    margin-left: 3vh;
+    margin-top: 3vh;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.circle-graph h3 {
+    color: #c4bbbb;
+    margin-left: 3vh;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.circle {
+    background-color: white;
+    width: 28vh;
+    height: 28vh;
+    border: 1px solid black;
+    margin-left: 9vh;
+    margin-top: 2vh;
+    border-radius: 100%;
+}
+
+.circle1 {
+    background-color: white;
+    width: 20vh;
+    height: 20vh;
+    margin-left: 2vh;
+    margin-top: 2vh;
+    border: 15px solid rgb(0, 211, 248);
+    border-radius: 100%;
+}
+
+.circle1 h1 {
+    color: black;
+    margin-left: 6vh;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.circle1 h3 {
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* @media (max-width: 1615px) {
+    .sidebar {
+        transform: translate(-443px, 0px);
+        position: absolute;
+    }
+} */
